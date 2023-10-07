@@ -1,13 +1,6 @@
-# 基于python的垃圾分类程序，提供数据集（pytorch开发）
+# 基于python的菜品识别程序（pytorch开发）
 
-
-垃圾分类是目前社会的一个热点，分类的任务是计算机视觉任务中的基础任务，相对来说比较简单，只要找到合适的数据集，垃圾分类的模型构建并不难，这里我找到一份关于垃圾分类的数据集，一共有四个大类和245个小类，大类分别是厨余垃圾、可回收物、其他垃圾和有害垃圾，小类主要是垃圾的具体类别，果皮、纸箱等。
-
-为了方便大家使用，我已经提前将数据集进行了处理，按照8比1比1的比例将原始数据集划分成了训练集、验证集和测试集，大家可以从下面的链接自取。
-
-> 链接：https://pan.baidu.com/s/1BkDlOmJwN37TVhfig4llow 
-> 提取码：9avi 
-> 复制这段内容后打开百度网盘手机App，操作更方便哦--来自百度网盘超级会员V4的分享
+以菜品识别作为我们本次大作业的研究目标，尝试用多种不同的模型对问题进行处理，同时也希望通过这个过程加深我们对深度学习的理解和掌握。
 
 ## 代码结构
 
@@ -300,7 +293,7 @@ if __name__ == '__main__':
 
 测试结果如下图：
 
-![image-20210305140104656](https://vehicle4cm.oss-cn-beijing.aliyuncs.com/typoraimgsimage-20210305140104656.png)
+https://deeplearning-14.yuque.com/org-wiki-cvnuht/xyzzx4/tw1nim
 
 ## 图形化界面
 
@@ -312,6 +305,3 @@ if __name__ == '__main__':
 
 ![image-20210305142602138](https://vehicle4cm.oss-cn-beijing.aliyuncs.com/typoraimgsimage-20210305142602138.png)
 
-## 代码链接
-
-> 代码链接：[trash_torch1.5: 基于pyotrch开发的垃圾分类程序！ (gitee.com)](https://gitee.com/song-laogou/trash_torch1.5)
